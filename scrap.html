@@ -1,0 +1,67 @@
+<meta charset="UTF-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1.0">
+								<title>Image Grid Example</title>
+							
+								<style>
+									/* Style for the grid container */
+									.image-grid {
+										display: grid;
+										grid-template-columns: repeat(3, 1fr); /* 3 columns */
+										gap: 10px; /* Adjust the gap between images */
+									}
+							
+									/* Style for each image container */
+									.image-container {
+										width: 100%; /* Take up the full width of the column */
+										overflow: hidden; /* Ensure images don't overflow */
+										border: 1px solid #ddd; /* Optional: Add a border for separation */
+									}
+							
+									/* Style for each image */
+									.image-container img {
+										width: 100%; /* Make the image fill the container */
+										height: auto; /* Maintain aspect ratio */
+										display: block; /* Remove extra space below images */
+									}
+								</style>
+							</head>
+							<body>
+							<!-- Grid container for images -->
+							<div class="image-grid">
+								<!-- Image 1 -->
+								<div class="image-container">
+									<img src="glacier.gif" alt="Image 1">
+								</div>
+								<!-- Image 2 -->
+								<div class="image-container">
+									<img src="chair.gif" alt="Image 2">
+								</div>
+								<!-- Image 3 -->
+								<div class="image-container">
+									<img src="europefly.gif" alt="Image 3">
+								</div>
+								<!-- Image 4 -->
+								<div class="image-container">
+									<img src="pianoplaying.gif" alt="Image 4">
+								</div>
+								<!-- Image 5 -->
+								<div class="image-container">
+									<img src="guitarvid.gif" alt="Image 5">
+								</div>
+								<!-- Image 6 -->
+								<div class="image-container">
+									<img src="rideaway.gif" alt="Image 6">
+								</div>
+								<!-- Image 7 -->
+								<div class="image-container">
+									<img src="lay.gif" alt="Image 7">
+								</div>
+								<!-- Image 8 -->
+								<div class="image-container">
+									<img src="clothes.gif" alt="Image 8">
+								</div>
+								<!-- Image 9 -->
+								<div class="image-container">
+									<img src="fingers.gif" alt="Image 9">
+								</div>
+							</div>
